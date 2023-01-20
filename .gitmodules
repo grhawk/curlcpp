@@ -1,3 +1,6 @@
 [submodule "libs/spdlog"]
 	path = libs/spdlog
 	url = git@github.com:gabime/spdlog.git
+[submodule "libs/curl"]
+	path = libs/curl
+	url = https://github.com/curl/curl.git
