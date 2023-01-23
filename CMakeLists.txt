@@ -11,10 +11,13 @@ set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 
 include(cmake/gtest.cmake)
+include(cmake/curl.cmake)
 
 add_subdirectory(engine)
 add_subdirectory(sandbox)
 
 add_subdirectory(libs/spdlog EXCLUDE_FROM_ALL)
 add_subdirectory(logging EXCLUDE_FROM_ALL)
+add_subdirectory(libs/curl EXCLUDE_FROM_ALL)
+
 
